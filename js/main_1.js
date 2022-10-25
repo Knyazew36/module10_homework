@@ -1,3 +1,4 @@
+//Задание №1
 let a = prompt()
 
 if (a === null) {
