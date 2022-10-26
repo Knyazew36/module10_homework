@@ -1,18 +1,30 @@
-const array = [7, 7, 3, 4, 5, 6, 7]
-array.forEach((item, index)=>{
- let n = console.log(item, index)
- ff(item, index)
 
 
-})
+const arr = [2, 2, 3, 4, 5, 6, 7];
+let chet = 0
+let nechet = 0
+let kolnul = 0
 
 
-function ff(item,index) {
-    a = item[`index`]
-    console.log(a)
-    if(item[index] !== item[index]+1){
-        // console.log('normalno')
-    }else{
-        // console.log('NEnormalno')
-    }
+arr.array.forEach(element => {
+    
+});
+
+
+
+
+
+function ff(item) {
+    if (item !== 0) {
+        if (item % 2 == 0) {
+            chet++
+        } else{
+            nechet++
+        }
+    }else {
+        letkolnul++
+    }   
 }
+
+
+console.log(`Чётные: ${chet}, Нечётные: ${nechet},Нули: ${kolnul}`)
