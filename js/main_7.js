@@ -1,9 +1,9 @@
 // Здание № 7
 
 const arr = [2, 3, 3, 4, 5, 0, 0,];
-let evenNumbers = 0
-let oddNumbers = 0
-let zero = 0
+let evenNumbers = 0;
+let oddNumbers = 0;
+let zero = 0;
 
 arr.forEach((item)=>{
     claim(item)
@@ -20,5 +20,4 @@ function claim(item) {
         zero++
     }   
 }
-
-console.log(`Чётные: ${evenNumbers}, Нечётные: ${oddNumbers}, Нули: ${zero}`)
+console.log(`Чётные: ${evenNumbers}, Нечётные: ${oddNumbers}, Нули: ${zero}`);

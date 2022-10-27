@@ -1,12 +1,12 @@
 //Задание №2
- let a = 'a'
- let type = typeof a
+ let a = 'a';
+ let type = typeof a;
  if (type === 'number') {
-    alert(`${a} - число`)
+    alert(`${a} - число`);
  } else if(type === 'string'){
-    alert(`${a} - строка`)
+    alert(`${a} - строка`);
  }else if(type === 'boolean'){
-    alert(`${a} - логический тип`)
+    alert(`${a} - логический тип`);
  }else{
-    alert('Тип x не определён')
+    alert('Тип x не определён');
  }

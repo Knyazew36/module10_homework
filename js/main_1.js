@@ -1,10 +1,9 @@
 //Задание №1
-let a = prompt()
-
+let a = prompt();
 if (a === null) {
-    console.log("Вы отказались от ввода")
+    console.log("Вы отказались от ввода");
 } else {
-    a = +a
+    a = + a;
 let type = typeof a
     if (a % 2 ===0) {
         console.log("четное");
@@ -15,7 +14,7 @@ let type = typeof a
          
    }
    else {
-       console.log("Упс, кажется вы ошиблись")
+       console.log("Упс, кажется вы ошиблись");
     }
 }   
    
